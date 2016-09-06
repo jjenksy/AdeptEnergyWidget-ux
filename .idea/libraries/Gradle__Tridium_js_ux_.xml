@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:js-ux:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../modules/js-ux.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:nre:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../bin/ext/nre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

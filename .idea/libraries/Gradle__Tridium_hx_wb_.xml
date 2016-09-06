@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:hx-wb:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../modules/hx-wb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

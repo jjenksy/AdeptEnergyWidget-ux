@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:gx-rt:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../modules/gx-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

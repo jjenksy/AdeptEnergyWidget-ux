@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:bajaux-ux:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../modules/bajaux-ux.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

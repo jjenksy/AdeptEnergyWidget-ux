@@ -1,0 +1,23 @@
+{
+  "name": "aew",
+  "description": "UI Widget for AdeptEnergy-rt",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": "jjenkins <jjenksy@gmail.com>",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt ci"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-niagara": "^0.1.20"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}

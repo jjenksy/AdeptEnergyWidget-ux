@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+<p h="1" m="b=baja" t="b:UnrestrictedFolder">
+
+                 <!-- /AdeptEnergyWidget-->
+                <p n="AdeptEnergyWidget" m="wb=workbench" t="wb:WebWidget">
+                 <p n="layout" m="ui=bajaui" t="ui:Layout" v="0.0,0.0,640.0,480.0"/>
+                 <p n="js" t="b:Ord" v="view:AdeptEnergyWidget:AdeptEnergyWidget"/>
+                </p>
+                <!-- /End AdeptEnergyWidget-->
+
+      <!-- /End of pallete-->
+</p>
+
+</bajaObjectGraph>
+
+

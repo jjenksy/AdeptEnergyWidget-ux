@@ -1,0 +1,51 @@
+/* Module Build File */
+apply from: "${System.getenv("niagara_home")}/etc/gradle/niagara.gradle"
+
+description     = "View Widget for AdeptEnergy-rt"
+ext {
+  name            = "AdeptEnergyWidget"
+  project.group   = "Logicide"
+  project.version = "1.0"
+}
+niagaraModule {
+  preferredSymbol = "AEW"
+  moduleName = "AdeptEnergyWidget"
+  runtimeProfile = "ux"
+}
+
+dependencies {
+  compile "Tridium:nre"
+  compile "Tridium:baja"
+  compile "Tridium:web-rt"
+  compile "Tridium:workbench-wb"
+  compile "Tridium:hx-wb"
+  compile "Tridium:gx-rt"
+  compile "Tridium:gx-wb"
+  compile "Tridium:bajaui-wb"
+  compile "Tridium:bajaux-ux"
+  compile 'Tridium:js-ux'
+
+
+}
+
+
+
+jar {
+  from('src') {
+    include 'rc/**/*.js'
+    exclude 'rc/**/*.built.js'
+    include 'rc/**/*.hbs'
+    include 'rc/**/*.css'
+    include 'res/**/**/*.png'
+    include 'res/**/**/*.gif'
+    include 'rc/'
+
+  }
+
+}
+
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

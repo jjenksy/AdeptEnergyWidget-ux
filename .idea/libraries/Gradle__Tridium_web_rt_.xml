@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: Tridium:web-rt:">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../modules/web-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
